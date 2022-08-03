@@ -116,3 +116,15 @@ int main() {
 
   return 0;
 }
+
+
+//
+//O filho herda os resultados ''calculados'' do pai
+//O filho pode fechar um resultado calculado pelo pai, sendo que esse resultado continuará obtido para o pai.
+//Os dois processos compartilham do mesmo ponteiro sobre o arquivo duplicado na chamada da primitiva fork! 
+//Quando o pai vai ler a função, ele se movimenta na função da mesma forma que seu filho.
+//Comportamento da saída no console:
+//Se o pai e o filho vivem, uma interrupção de teclado (via CTRL-c) irá destruir os dois processos. Entretanto, se um filho vive enquanto seu pai está morto, uma interrupção pode não matá-lo.
+//
+
+
