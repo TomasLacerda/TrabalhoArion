@@ -1,3 +1,5 @@
+// PARA RODAR $ gcc -o fork fork.c      $ ./fork
+
 #include <stdio.h>
 #include <sys/time.h>
 #include <stdlib.h>
